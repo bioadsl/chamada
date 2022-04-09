@@ -7,38 +7,20 @@
  * nos principais SGBDs, exemplo SQL Server, MySQL e Firebird. Instruções SELECT são recebidas integralmente  *  
  * via parâmetro.                                                                                             *  
  *************************************************************************************************************/  
-require 'connect.php';
+
 
 /*
  * Constantes de parâmetros para configuração da conexão
  */
-define('SGBD', $sgbd);
-define('HOST', $host);
-define('DBNAME', $banco);
-define('CHARSET', $charset);
-define('USER', $usuario);
-define('PASSWORD', $senha);
-define('SERVER', $servidor);
 
 
 // define('SGBD', 'mysql');
 // define('HOST', 'localhost');
-// define('DBNAME', 'id15146213_db_bravoscap');
+// define('DBNAME', '');
 // define('CHARSET', 'utf8');
-// define('USER', 'id15146213_bravoscap');
-// define('PASSWORD', 'Up%D@Dv1ubsfNNEd'); //P@55word-048569
+// define('USER', '');
+// define('PASSWORD', '');
 // define('SERVER', 'linux');
-
-// define('SGBD', 'mysql');
-// define('HOST', 'localhost');
-// define('DBNAME', 'u784567453_db_bravoscap');
-// define('CHARSET', 'utf8');
-// define('USER', 'root');//u784567453_bravoscap
-// define('PASSWORD', ''); //brvsCAP2020
-// define('SERVER', 'linux');
-
-
-
 
 
 
